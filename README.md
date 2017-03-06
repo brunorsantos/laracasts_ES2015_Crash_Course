@@ -247,3 +247,26 @@ timer.then(function () {
 No exemplo, definimos uma promise chamada timer.
 Quando a ação deseja na declaração da proxima for finalizada, devemos executar 'resolve()'. Que será o instante em que o o 'then' será chamado. 
 Caso desejado podemos tambem usar 'reject()' para quando ocorrer erro, e disparar com 'catch' ou entao o segundo parametro do 'then'
+
+## Useful String Additions
+
+Funções uteis com string
+- 'string'.includes() -  verifica se contem o trecho passado como parametro
+- 'string'.strartsWith() - verifica se inicia o trecho passado como parametro
+- 'string'.endsWith() - verifica se termina o trecho passado como parametro
+- 'string'.repeat() - repete a string na quantidade de vezes passada como parametro
+ 
+## Array#find and Array#includes
+
+Sendo 'array' uma variavel armazenando um array:
+
+- array.find - Utiliza uma closure em que quando seu resultado for verdadeiro, retorna o item do array
+- array.findIndex - Utiliza uma closure em que quando seu resultado for verdadeiro, retorna o item do array
+- array.include() - Retorna true quando o array possui o elemento passado como parametro
+
+
+## Generators
+
+Generators são funções que podem ser suspensas e reiniciadas continuando seu estado no momento em que foram paradas.
+
+
